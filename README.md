@@ -12,6 +12,10 @@ Console logging in the browser to a div for browsers without developer tools.
 ## Why make a developer console when all major browsers have much better ones?
 - Most browsers on mobile and tablets do not have developer tools. This is for them.
 
+## Why not use Firebug Lite?
+- [Firebug Lite](https://github.com/firebug/firebug-lite) hasn't been updated in over 10 years.
+- I would have used it as a starting point but it is very large and I only wanted a console for logging.
+
 # TODOs
 - On desktop
   - Issue with spans going onto a new line. Use desktop browser to diagnose in dev console.
