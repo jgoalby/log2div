@@ -1,5 +1,9 @@
 # log2div
-Console logging in the browser to a div for browsers without developer tools.
+
+## Project Goals
+- Provide console logging support in any browser, especially ones with no or limited developer tools.
+- Output console log messages to a div.
+- A single well-documented javascript file for low-friction integration in projects.
 
 # What?
 
@@ -24,6 +28,7 @@ Console logging in the browser to a div for browsers without developer tools.
 
 ## What features do you not plan to add?
 - Full-featured developer tools. That is a lot of work to create something desktop browsers already excel at.
+- Features that are best provided by the containing application. E.g. LocalStorage support.
 
 # Why?
 
@@ -49,8 +54,17 @@ Console logging in the browser to a div for browsers without developer tools.
 - You can also do remote debugging which let's face it is not very convenient.
 - I do use those browsers for development, but they don't help when I want to test in Chrome for example.
 
-## Why you?
+## Why me?
 - I like developing things and decided I wanted to give back to the open source community.
+
+# Developer Notes
+
+## Previewing the HTML using Codespaces
+- Open the terminal
+- Install the HTTP Server by typing ```npm i -g http-server``` in the terminal
+- Subsequently, type ```http-server``` to run the server
+- Select the "Open in Browser" button at the prompt
+
 
 # TODOs
 - On desktop
