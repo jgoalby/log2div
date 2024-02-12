@@ -18,6 +18,13 @@ Console logging in the browser to a div for browsers without developer tools.
 - Easy to style.
 - Single pure javascript file with readable, well-documented code. No build step needed.
 
+## What features do you plan to add?
+- I would like to add features useful for Phaser development.
+- I would like to add features useful for mobile application developement.
+
+## What features do you not plan to add?
+- Full-featured developer tools. That is a lot of work to create something desktop browsers already excel at.
+
 # Why?
 
 ## Why pure javascript?
@@ -39,6 +46,7 @@ Console logging in the browser to a div for browsers without developer tools.
 ## Some browsers on iPad have developer consoles already, why not use those?
 - [Inspect Browser](https://apps.pdyn.net/inspect/) is useful and recommended.
 - [Web Inspector](https://andadinosaur.com/launch-web-inspector-for-ios) is a Safari extension that is quite good.
+- You can also do remote debugging which let's face it is not very convenient.
 - I do use those browsers for development, but they don't help when I want to test in Chrome for example.
 
 ## Why you?
