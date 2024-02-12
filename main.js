@@ -1,5 +1,5 @@
 // Initialize the console log2div first.
-import { initLog2Div, toggleLog2DivVisibility } from 'log2div.js';
+import { initLog2Div, toggleLog2DivVisibility } from './log2div.js';
 (() => { initLog2Div(); })();
 
 /**
