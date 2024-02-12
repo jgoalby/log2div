@@ -37,7 +37,7 @@ Console logging in the browser to a div for browsers without developer tools.
 - I would have used it as a starting point but it is very large and I only wanted a console for logging.
 
 ## Some browsers on iPad have developer consoles already, why not use those?
-- [Inspect Browser]([https://inspect.dev/](https://apps.pdyn.net/inspect/)) is useful and recommended.
+- [Inspect Browser](https://apps.pdyn.net/inspect/) is useful and recommended.
 - [Web Inspector](https://andadinosaur.com/launch-web-inspector-for-ios) is a Safari extension that is quite good.
 - I do use those browsers for development, but they don't help when I want to test in Chrome for example.
 
