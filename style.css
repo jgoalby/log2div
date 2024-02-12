@@ -1,1 +1,116 @@
-
+body {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    display: flex;
+    flex-direction: column; 
+  }
+  
+  /* 
+      Log2Div related styles
+  */
+  
+  /* This is needed to make whitespace visible in the console log, for instance in Phaser header. */
+  span { white-space: pre; }
+  
+  .wordwrap { 
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+  }
+  
+  #log2div-container {
+    position: absolute;
+    display: none;
+    z-index: 1000;
+    min-height: 55px;
+    width: 98% !important;
+    height: 98% !important;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin: 10px;
+    padding: 5px 0 0 0;
+    
+    font-family: "Input Mono", monospace;
+    font-weight: 400;
+    font-size: 0.8em;
+    line-height: 1.4em;
+    
+    color: rgb(0,0,0);
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+  
+    /* Caption styling */
+    #log2div-caption {
+      padding: 10px 0 12px 0;
+      text-indent: 10px;
+      font-size: 1.2em;
+    }
+  
+    /* The heading div */
+    #log2div-heading {
+      display: flex;
+    }
+  
+    /* Heading buttons styles */
+    .log2div-button {
+      margin-left: 10px;
+      cursor: pointer;
+      background-color: rgba(255,255,255,.2);
+      border-radius: 5px;
+    }
+  
+    /* Heading checkbox container styles */
+    .log2div-checkbox-container {
+      display: flex;
+      margin-left: 10px;
+      cursor: pointer;
+      align-items: center;
+    }
+  
+    .log2div-log-row-badge {
+      display: inline-block;
+      background-color: rgba(255,0,0,.8);
+      border-radius: 12px;
+      color: white;
+      font: bold 15px/13px Helvetica, Verdana, Tahoma;
+      height: 1em; 
+      min-width: 1em;
+      padding: 2px 11px 0 3px;
+      margin-right: 0.4em;
+    }
+  
+    .log2div-log-row span {
+      display: inline-block;
+      white-space: pre-wrap;
+      white-space: -moz-pre-wrap;
+      white-space: -pre-wrap;
+      white-space: -o-pre-wrap;
+      word-wrap: break-word;
+    } 
+  
+    .log2div-log-row {
+      &:nth-child(odd) {
+        background: rgba(0,0,0,.1);
+      }
+    }
+  
+    /* Message type styles */
+    .log2div-info      { color: rgb(0,0,255); }
+    .log2div-warning   { color: rgb(255,100,50); }
+    .log2div-error     { color: rgb(255,0,0); }
+    .log2div-exception { color: rgb(255,0,255); }
+  
+    /* Badge styles based on the logging type */
+    .log2div-log-row-badge.log2div-info      { color: white; background-color: rgba(0,0,255,0.5); }
+    .log2div-log-row-badge.log2div-warning   { color: white; background-color: rgba(255,100,50,0.5); }
+    .log2div-log-row-badge.log2div-error     { color: white; background-color: rgba(255,0,0,0.5); }
+    .log2div-log-row-badge.log2div-exception { color: white; background-color: rgba(255,0,255,0.5); }
+  
+    thead {
+      background: rgba(0,0,0,.2);
+    }
+  }
+  
