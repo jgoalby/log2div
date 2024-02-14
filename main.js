@@ -5,7 +5,7 @@ import { initLog2Div, toggleLog2DivVisibility } from './log2div.js';
 /**
  * Show or hide the console.
  * 
- * @param {Event} event The event to show/hide the console.
+ * @param {KeyboardEvent} event The event to show/hide the console.
  */
 async function showConsole(event) {
   // CTRL-D shows the console.
