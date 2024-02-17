@@ -7,10 +7,16 @@
   <body>
     <div id="header">
       <h1>log2div</h1>
+      <div class="break"></div>
+      <button id="toggleconsole">Toggle log2div</button>
+      <select name="loglevels" id="loglevel">
+        <option value="info">Info</option>
+        <option value="warn">Warn</option>
+        <option value="error">Error</option>
+      </select>
+      <input type="text" id="log" />
+      <button id="logmessage">Log</button>
     </div>
-    <input type="text" id="log" />
-    <button onclick="toggleLog2DivVisibility()")">Toggle log2div</button>
-    <button onclick="console.log(document.getElementById('log').value)">Log</button>
     <script src="main.js" type="module"></script>
   </body>
 </html>
