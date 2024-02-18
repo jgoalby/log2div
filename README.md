@@ -74,8 +74,6 @@
 - Test everything now that names have been changed.
 - Test the table function and clean up that code as needed and comment.
 - What is the thead css doing for me?
-- Add a button in index.html for showing the console so can do it on iPhone.
-- Add a drop down, text field, and a button on index.html to add new console entries for testing.
 
 # Middle-term TODOs
 - window.isSecureContext for HTTPS
@@ -97,3 +95,6 @@
 - Copy to clipboard as RTF once support is added to browsers.
 - Add a text box to issue commands to the console.
   - Maybe very simplified and logging based.
+- Possibly add getOptions and a setOptions methods so a client of log2div can serialize the options
+  - The options can be passed into the project so this would be a natural extension to that
+  - Adapt the code when initializing to use setOptions to have the code exist in one place
