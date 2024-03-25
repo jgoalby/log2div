@@ -124,9 +124,10 @@ span { white-space: pre; }
   display: flex;
   justify-content: normal;
   padding: 10px;
-  &:nth-child(odd) {
-    background: rgba(0,0,0,.1);
-  }
+}
+
+.log2div-log-row:nth-child(odd) {
+  background: rgba(0,0,0,.1);
 }
 
 /* Message type styles */
