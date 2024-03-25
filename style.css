@@ -47,7 +47,7 @@ span { white-space: pre; }
   word-wrap: break-word;
 }
 
-#log2div-container {
+.log2div-container {
   position: absolute;
   left: 0px;
   top: 0px;
